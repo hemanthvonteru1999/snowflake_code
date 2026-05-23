@@ -1,0 +1,8 @@
+version: 2
+sources:
+    - name: datafeed_shared_schema
+      database: "{{('di_sales')}}"
+      schema: dbt_dev
+      tables:
+        - name: customers
+        - name: orders
